@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <section class="welcome">
+        <form id="form" action="" method="get">
+            <h1>Quiz : Les bases d'un développeur !</h1>
+    
+            <input id="mypseudo" type="text" placeholder="Entrez votre pseudo" required="required" style="text-align: center">
+            <input class ="begin"type=submit value="Cliquer pour commencer"style="text-align: center"/>
+        </form>
+        <div id="output-box"></div>
+    </section>
+
+
+    <section class="quiz">
+        
+        <section class="quiz_card">
+            <h2 id="h2"> Quiz</h2>
+            <p id ="scoredujoueur"class="score"></p>
+            
+            <form id ="questions"action="">
+                <h3></h3>
+            
+                <div class="reponses_div">
+                <input type="radio" name="answers" id="btnquiz0" value="0"class="radio">
+                    <label for="btnquiz0" class="label0"></label>
+                    
+
+                </div>
+                <div class="reponses_div">
+                    <input type="radio" name="answers" id="btnquiz1" value="1" class="radio">
+                    <label for="btnquiz1"class="label1" ></label>
+
+                </div>
+                <div class="reponses_div">
+                    <input type="radio" name="answers" id="btnquiz2" value="2"class="radio">
+                    <label for="btnquiz2"class="label2" ></label>
+
+                </div>
+                <div class="reponses_div">
+                <input type="radio" name="answers" id="btnquiz3" value="3"class="radio">
+                    <label for="btnquiz3" class="label3" ></label>
+                </div>    
+                
+                    <input type="button" value="Valider" id="valider" class="mes2btn" >
+                    <input type="submit" value="Next" id ="next" class="hidden" class="mes2btn">
+      
+                  
+            </form>
+        </section>
+    </section>
+
+    <section id="scoreContainer">
+        <table class="table">
+     
+        </table>
+
+
+
+
+        
+    </section>
+
+
+
+
+
+<script src="fichier.js"></script>
+</body>
+</html>
+
+

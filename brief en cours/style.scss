@@ -1,0 +1,180 @@
+html{
+    height: 100vh
+}
+body{ 
+    background-image: url(img2.jpg);
+    background-size: cover;
+   
+
+   
+    
+    .welcome{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;
+        text-align: center;
+
+        h1{
+            font-size: 39px;
+            background: -webkit-linear-gradient(rgb(138, 137, 137), rgb(19, 3, 107));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+           
+        }
+    
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            #mypseudo{
+                height: 65px;
+                width: 300px;
+                border: solid 3px;
+            }
+            .begin{
+                width: 211px;
+                height: 35px;
+                margin-top: 10px;
+                border: solid 1px black;
+                margin-right: 10px;
+            }
+            #mypseudo:hover{
+                background-color: rgb(95, 158, 201);
+            }
+            
+            
+            .begin:hover{
+            
+               background-color: rgb(235, 144, 8);
+               border: solid 3px black;
+            }
+        }
+    }
+}
+
+
+.quiz{
+    display: none;
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+
+        h2{
+            font-size: 90px;
+        
+            background: -webkit-linear-gradient(rgb(236, 146, 146), rgb(44, 168, 206));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            
+
+            span{
+                background: -webkit-linear-gradient(rgb(236, 146, 146), rgb(44, 168, 206));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+
+            }
+            
+        }
+
+        h3{
+            font-size: 30px;
+            white-space: break-spaces;
+        }
+
+        .quiz_card{
+            height: 100vh;
+            justify-content: center;
+            text-align: center;
+            
+        }
+}
+#questions{
+    display: flex;
+    flex-flow: column wrap ;
+    background-color: whitesmoke;
+   border: solid 2px black;
+   margin-bottom: 100px;
+}
+
+.reponses_div{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    
+    
+    #btnquiz0{
+        align-content: flex-start;
+        width: 300px ;
+        height: 40px;
+        font-size: 18px;
+    }
+    
+    #btnquiz1{
+        width: 300px ;
+        height: 40px;
+        font-size: 18px;
+    }
+    
+    
+    #btnquiz2{
+        width: 300px ;
+        height: 40px;
+        font-size: 18px;
+    }
+    
+    
+    #btnquiz3{
+        width: 300px ;
+        height: 40px;
+        font-size: 18px;
+    }
+}
+
+
+
+label{
+    border: 3px solid black;
+    padding: 5px;
+
+}
+
+input {
+    font-size: 18px;
+    
+    
+}
+
+#valider{
+   margin: 20px;
+   padding:10px;
+   
+  
+}
+#valider:hover{
+    background-color: rgb(42, 201, 63);
+    border: 2px solid black;
+}
+
+//--------------------------------------------------------------------------------//
+@media screen and (min-width:300) and (max-width:800){
+
+    body{
+        min-height: 600px;
+        background-image: url(img2.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+
+        
+
+        
+}
+}
+
+
+
+
+
+

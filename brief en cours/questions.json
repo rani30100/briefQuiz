@@ -1,0 +1,84 @@
+[
+    {
+        "title": " A quoi sert la balise hr ?",
+        "answers":[
+          "ouvrir un fichier image",
+          "Créer une section",
+          "Faire une ligne horizontale",
+          "Faire un espace"
+        ],
+        "correctAnswerIndex": 2,
+        "commentary1": "Bravo !",
+        "commentary2": "Faux !"
+    }
+,
+
+    {
+        "title": " Le rôle du HTML est de...",
+        "answers":[
+            "Mettre en forme du texte",
+            "Ordonner du contenu",
+            "Créer des sites e-commerce",
+            "Faire des flyers"
+            ],
+            "correctAnswerIndex": 2,
+            "commentary1": "Bravo !",
+            "commentary2": "Faux !"
+    },
+
+    {
+        "title": "Pour définir un titre dans une page HTML, on utilise...",
+        "answers":[
+            "L'élément title",
+            "Un élément h1, h2, ... h6",
+            "L'élément head",
+            "la barre espace"
+            ],
+            "correctAnswerIndex": 1,
+            "commentary1": "Bravo !",
+            "commentary2": "Faux !"  
+    },
+
+    {
+        "title": " Laquelle de ces syntaxes est correcte pour écrire un commentaire en HTML ?",
+        "answers":[
+            "<!--Commentaire--!>",
+            "<!--Commentaire-->",
+            "<--Commentaire-->",
+            "<commentaire>"
+            ],
+            "correctAnswerIndex": 0,
+            "commentary1": "Bravo !",
+            "commentary2": "Faux !"    
+    }
+
+    
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

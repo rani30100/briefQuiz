@@ -1,0 +1,162 @@
+html {
+  height: 100vh;
+}
+
+body {
+  background-image: url(img2.jpg);
+  background-size: cover;
+}
+body .welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  text-align: center;
+}
+body .welcome h1 {
+  font-size: 39px;
+  background: -webkit-linear-gradient(rgb(138, 137, 137), rgb(19, 3, 107));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body .welcome form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .welcome form #mypseudo {
+  height: 65px;
+  width: 300px;
+  border: solid 3px;
+}
+body .welcome form .begin {
+  width: 211px;
+  height: 35px;
+  margin-top: 10px;
+  border: solid 1px black;
+  margin-right: 10px;
+}
+body .welcome form #mypseudo:hover {
+  background-color: rgb(95, 158, 201);
+}
+body .welcome form .begin:hover {
+  background-color: rgb(235, 144, 8);
+  border: solid 3px black;
+}
+
+.quiz {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.quiz h2 {
+  font-size: 90px;
+  background: -webkit-linear-gradient(rgb(236, 146, 146), rgb(44, 168, 206));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.quiz h2 span {
+  background: -webkit-linear-gradient(rgb(236, 146, 146), rgb(44, 168, 206));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.quiz h3 {
+  font-size: 25px;
+  white-space: break-spaces;
+}
+.quiz .quiz_card {
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+}
+
+#questions {
+  display: flex;
+  flex-flow: column wrap;
+  background-color: whitesmoke;
+  border: solid 2px black;
+  margin-bottom: 100px;
+  max-width: 645px;
+  
+}
+.text{
+  font-size: 50px;
+  color: brown;
+}
+.scoreTab{
+  background-color: antiquewhite;
+}
+
+.reponses_div {
+  display: flex;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  
+}
+
+
+
+
+.reponses_div #btnquiz0,.reponses_div #btnquiz1,.reponses_div #btnquiz2,.reponses_div #btnquiz3{
+  align-content: flex-start;
+  height: 40px;
+  font-size: 18px;
+
+}
+
+label {
+  border: 3px solid black;
+  padding: 5px;
+  grid-column: 2;
+}
+
+input {
+  font-size: 18px; margin: 10px;
+  padding: 10px;
+  min-width:50px;
+}
+
+.mes2btn {
+  margin: 20px;
+  padding: 10px;
+  min-width:50px;
+}
+
+.score{
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.scoreContainer{
+ height: 600px;
+ display: none;
+}
+
+
+
+.table{
+  background-color: aliceblue;
+  height: 600px;
+  
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 300) and (max-width: 800) {
+  body {
+    min-height: 600px;
+    background-image: url(img2.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+  }
+}/*# sourceMappingURL=style.css.map */
